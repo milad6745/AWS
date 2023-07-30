@@ -23,3 +23,21 @@
 -
 -  example : t2 micro -- > free instance (750H per month) -> class 1 با توان پردازشی پایین
 -  example : m5.2xlarge
+
+## EC2 class
+- balance performance (t,m) -->
+- compute optimize --> batch procecing , high performance
+- memory optimize --> large data memory,no sql db, in memory DB
+- storage performance -- > high read / write , nosql db ,
+
+  ## Securoty Group
+  ![image](https://github.com/milad6745/AWS/assets/113288076/28617f90-bb16-44a1-9421-79bcf27cf88c)
+- این ماژول خارج از Ec2 قرار گرفته و ترافیک ورودی و خروجی را کنترل میکند.
+- برای ورود ترافیک باید Allow rule تعریف شده باشد در غیر این صورت Deny میشود.
+- این ویژگی Statefull است و در حالت عادی ترافیک برگشتی Allow آست .
+- برای اینکه دو سکیوریتی گروپ را با هم Allow کنیم میتوانیم از آیپی و یا نام Security Group آستفاده نمایید .
+  
+  
+  
+  
+  
